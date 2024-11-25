@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#23395d"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="262dp"
+        android:layout_height="254dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        app:srcCompat="@drawable/logo3" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="-60dp"
+        android:layout_marginBottom="20dp"
+        android:text="Create Account"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/editTextLecturerEmail"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/white"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#23395d"
+        android:textColorHint="#23395d" />
+
+    <EditText
+        android:id="@+id/editTextLecturerPassword"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/white"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#23395d"
+        android:textColorHint="#23395d"/>
+
+    <EditText
+        android:id="@+id/editTextLecturerConfirmPassword"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/white"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textColor="#23395d"
+        android:textColorHint="#23395d" />
+
+    <Button
+        android:id="@+id/buttonSignUpLecturer"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#8C9DAD"
+        android:text="Sign Up Lecturer"
+        android:textColor="#23395d" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="254dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="-20dp"
+        android:gravity="center"
+        android:text="Exclusively for UPTM Computer Science Lecturer"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
